@@ -23,19 +23,19 @@ class Habit extends Component {
           className="habit-button habit-increase"
           onClick={this.handleIncrement}
         >
-          <i class="fa-solid fa-square-plus"></i>
+          <i className="fa-solid fa-square-plus"></i>
         </button>
         <button
           className="habit-button habit-decrease"
           onClick={this.handleDecrement}
         >
-          <i class="fa-solid fa-square-minus"></i>
+          <i className="fa-solid fa-square-minus"></i>
         </button>
         <button
           className="habit-button habit-delete"
           onClick={this.handleDelete}
         >
-          <i class="fas fa-trash"></i>
+          <i className="fas fa-trash"></i>
         </button>
       </li>
     );
